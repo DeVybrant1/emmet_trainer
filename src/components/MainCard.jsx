@@ -7,7 +7,7 @@ export default function MainCard(){
             <h1 className='text-2xl font-bold font-mono'>Go to practice</h1>
             <p>Welcome to the Emmet trainer, where you can master emmet html shortcuts and improve your coding speed. Practice writing HTML and CSS using Emmet abbreviations to become more efficient!</p>
             
-            <Link to="Main" className="bg-slate-500 hover:bg-blue-700 active:bg-blue-800 text-white font-bold py-2 px-4 rounded">
+            <Link to="Main" className="bg-blue-500 hover:bg-blue-700 active:bg-blue-800 text-white font-bold py-2 px-4 rounded">
                 Start Practicing
             </Link>
         </div>
