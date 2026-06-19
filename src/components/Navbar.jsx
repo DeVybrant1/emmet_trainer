@@ -6,8 +6,9 @@ function Navbar() {
 
       <ul className="ml-auto flex gap-6">
         {/* <li><a href="#">Lessons</a></li> */}
-        <li><a href="#">Practice</a></li>
-        <li><a href="#">Cheatsheet</a></li>
+        <li><Link to="Main">Practice</Link></li>
+        <li><Link to="Cheatsheet">Cheatsheet</Link></li>
+        <li><a href="https://emmet.io/" target="_blank" rel="noopener noreferrer">More Emmet </a></li>
       </ul>
     </nav>
   )

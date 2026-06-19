@@ -4,6 +4,7 @@ import './index.css'
 import {createBrowserRouter, RouterProvider} from 'react-router'
 import App from './pages/App.jsx'
 import Home from './pages/Home.jsx'
+import DispWarning from './components/DispWarning.jsx'
 
 const router = createBrowserRouter([
   {
@@ -19,5 +20,6 @@ const router = createBrowserRouter([
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <RouterProvider router={router} />
+    <DispWarning />
   </StrictMode>,
 )
