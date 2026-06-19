@@ -23,6 +23,7 @@ export default function Home(){
                 />
             ))}
             </div>
+            <div className="h-20"></div>
             <Footer />
         </div>
     )
