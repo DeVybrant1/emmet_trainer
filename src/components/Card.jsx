@@ -3,7 +3,7 @@ import {Link} from 'react-router'
 export default function Card({title, description, linkText,link, icon}){
 
     return(
-        <div className="flex flex-col my-4 mx-3 items-center justify-center gap-4 p-6 border w-[97%] rounded-lg shadow-md">
+        <div className="flex flex-col backdrop-blur-[2px]  my-4 mx-3 items-center justify-center gap-4 p-6 border w-[97%] rounded-lg shadow-md">
             {icon}
             <h1 className='text-2xl font-bold font-mono'>{title}</h1>
             <p>{description}</p>

@@ -5,7 +5,7 @@ import {CodeXml,FileSpreadsheet} from "lucide-react"
 export default function Home(){
 
     const maintext=[{icon:<CodeXml />, title:"Go to practice", description:"Welcome to the Emmet trainer, where you can master emmet html shortcuts and improve your coding speed. Practice writing HTML and CSS using Emmet abbreviations to become more efficient!", linkText:"Start Practicing", link:"Main"},
-        {icon:<FileSpreadsheet />, title:"Cheatsheet",description:"Guickly reference Emmet abbreviations and their corresponding HTML/CSS output with our comprehensive cheatsheet. Save time and boost your productivity by having all the essential Emmet shortcuts at your fingertips.",linkText:"View Cheatsheet",link:"Cheatsheet"}]
+        {icon:<FileSpreadsheet />, title:"Cheatsheet",description:"Quickly reference Emmet abbreviations and their corresponding HTML/CSS output with our comprehensive cheatsheet. Save time and boost your productivity by having all the essential Emmet shortcuts at your fingertips.",linkText:"View Cheatsheet",link:"Cheatsheet"}]
 
 
     return(
